@@ -7,5 +7,10 @@ function stopTime(){
   var final = start.getTime() - stop.setTime();
   console.log(final);
   final = final/600;
+  console.log(final);
   alert("You have been on the page for " + final + " seconds");
 }
+
+
+
+alert("You have been on the page for " + final + " seconds");
