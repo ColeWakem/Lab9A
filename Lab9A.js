@@ -4,13 +4,11 @@ console.log(start);
 function stopTime(){
   var stop = new Date();
   console.log(stop);
-  var final = start.getTime() - stop.setTime();
+  var = startTime = start.getTime();
+  console.log(startTime);
+  var stopTime = stop.setTime();
+  console.log(stopTime);
+  var final = (startTime - stopTime)/600;
   console.log(final);
-  final = final/600;
-  console.log(final);
-  alert("You have been on the page for " + final + " seconds");
+  alert(final);
 }
-
-
-
-alert("You have been on the page for " + final + " seconds");
